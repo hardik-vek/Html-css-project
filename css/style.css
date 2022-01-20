@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #2874f0;
+    font-family: 'Viaoda Libre', cursive;
+    height: 5vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    /* width: 150px; */
+}
+.search{
+    display: flex;
+    align-items: center;
+    /* width: 100%;
+    width: 30vw; */
+    /* height: 36px; */
+    /* width: 50px; */
+    /* margin-left: 35px;
+    margin-top: 10px;
+    padding: 0px 16px;
+    width: 200px; */
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 106px 0 6px;
+    padding:0 12px;
+}
+.buttonn{
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px;
+    border-radius: 10px; */
+}
+.buttonn button{
+font-weight: 900;
+}
+.btn{
+    margin-right: 20px;
+    padding: 5px 10px;
+    color: white;
+    background: #2874f0;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.logo img{
+    width: 85px;
+    /* height: 20px; */
+    padding: 0 25px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+    color: white;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
+}
+.mr1{
+margin-right: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card{
+    margin: 10px 40px;
+    text-align: center;
+    
+}
+.card img{
+    border-radius: 57px;
+}
+.txt{
+    font-family: 'Viaoda Libre', cursive;
+}
+.box1{
+    /* max-width: 91vw; */
+    margin: 37px auto;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.item1{
+    margin: 10px 40px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top h2{
+    margin-left: 10vw;
+}
+.top button{
+    margin-right: 10vw;
+}

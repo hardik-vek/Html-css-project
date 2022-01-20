@@ -1,0 +1,3 @@
+First Create a placeholder first
+create the main DIV into the placeholder
+crate various category product view
